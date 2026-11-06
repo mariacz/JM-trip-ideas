@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trips for Two</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="index.html" class="logo">✈️ Trips for Two</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <h1>Where should we go next?</h1>
+      <p>Sixteen Thursday–Sunday getaways for two from Pittsburgh, each under $3,000: cozy Christmas weekends in early December and warm-weather escapes for late January. Click any trip for the full plan.</p>
+    </section>
+
+    <div class="filters" id="filters"></div>
+    <div class="grid" id="trip-grid"></div>
+  </main>
+
+  <footer class="site-footer">Made for planning adventures together.</footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script>renderHome();</script>
+</body>
+</html>
